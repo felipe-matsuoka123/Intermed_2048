@@ -328,7 +328,7 @@ if st.session_state.game_won:
     
     if win_image_b64:
         # If 'win_image.png' exists, show it
-        game_message = f"<div class='game-overlay'><img src='data:image/png;base64,{win_image_b64}' width='400' height='400' style='border-radius: 12px;'><h1 style='margin-top: 10px;'>🎓 Campeão! 🎓</h1></div>"
+        game_message = f"<div class='game-overlay'><img src='data:image/png;base64,{win_image_b64}' width='400' height='400' style='border-radius: 12px;'><h1 style='margin-top: 10px;'>🐍 Campeão! 🐍</h1></div>"
     else:
         # Fallback if no win image is found
         game_message = "<div class='game-overlay'><h1>🎓<br/>Campeão!</h1></div>"
